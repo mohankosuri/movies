@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "Moviename": "Pirates of the Caribbean",
+        "Description": "Pooley",
+        "image": "https://rukminim2.flixcart.com/image/850/1000/jn3hocw0/poster/j/s/q/medium-hollywood-movie-wall-poster-pirates-of-the-caribbean-dead-original-imaf9uv7zzgp6wvg.jpeg?q=90&crop=false",
+        "year": 2022,
+        "Story":"Pirates of the Caribbean is an American fantasy supernatural swashbuckler film series produced by Jerry Bruckheimer and based on Walt Disney's theme park attraction of the same name. The film series serves as a major component of the titular media franchise."
+    },
+    {
+        "id": 2,
+        "Moviename": "Morbius",
+        "Description": "Romero",
+        "image": "https://e1.pxfuel.com/desktop-wallpaper/49/663/desktop-wallpaper-new-movie-posters-hollywood-movie-2022-thumbnail.jpg",
+        "year": 2021,
+        "Story":"Cast. Jared Leto as Dr. Michael Morbius: A scientist suffering from a rare blood disease whose attempts to cure himself afflict him with a form of transgenic vampirism, gaining all of the superhuman abilities but none of the superstitious weaknesses associated with vampires."
+    },
+    {
+        "id": 3,
+        "Moviename": "A Dam Driver",
+        "Description": "Romero",
+        "image": "https://assets.gadgets360cdn.com/pricee/assets/product/202212/65_1671448856.jpg",
+        "year": 2018,
+        "Story":"After a catastrophic crash, pilot Mills quickly discovers he's actually stranded on an unknown planet. Now, with only one chance at rescue, Mills must make his way across an unknown terrain riddled with dangerous prehistoric creatures in an epic fight to survive. From the writers of A Quiet Place comes 65, a sci-fi thriller produced by Sam Raimi, Deborah Liebling, Zainab Azizi, Scott Beck and Bryan Woods."
+    },
+    {
+        "id": 4,
+        "Moviename": "Pride",
+        "Description": "Romero",
+        "image": "https://i.pinimg.com/736x/78/3d/8c/783d8cf7c71ed60ec0f3760789a29e99.jpg",
+        "year": 2023,
+        "Story":"“Pride” wears on its sleeve the desire to make its audience stand up and cheer. It is willing to occasionally plumb the depths of familiar formula to achieve its goal. Here is a true story that could have been played as straight drama, yet the filmmakers opted for a lighter approach to capture hearts and minds."
+    },
+    {
+        "id": 5,
+        "Moviename": "Zomibies",
+        "Description": "Romero",
+        "image": "https://cdn-blogs.tribune.com.pk/2016/12/0-pride-1482412210.jpg",
+        "year": 2020
+    },
+    {
+        "id": 6,
+        "Moviename": "Rouge One",
+        "Description": "Romero",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrcoISBPNuA05z57MLYPd8ZU0uDq1yF66JAWlMUwWv1vEK9FJ6C-Kf0ut7Zf2pUpYBPJc&usqp=CAU",
+        "year": 2023
+    },
+    {
+        "id": 7,
+        "Moviename": "Star War",
+        "Description": "Romero",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2Au13PIjdTomxMhff_1HrIqk31yGwbGkoHjXYUYcXcl6Tm4aKYWYrmwydJclFdJdIW4&usqp=CAU",
+        "year": 2017
+    },
+    {
+        "id": 8,
+        "Moviename": "Brack Law",
+        "Description": "Romero",
+        "image": "https://wallpaperaccess.com/full/1923020.jpg",
+        "year": 2024
+    },
+    {
+        "id": 9,
+        "Moviename": "Spider Man",
+        "Description": "Romero",
+        "image": "https://cdn.wallpapersafari.com/43/61/ob2fZ8.jpg",
+        "year": 2016
+    }
+]
