@@ -15,8 +15,7 @@ import Data1 from "./assets/MOCK_DATA (2).json"
 import { Top100MovieDetailsScreen } from './screens/SettingsScreen';
 import Profile from './screens/Profile';
 import { StockDetailView } from './screens/SeriesScreen';
-import Scanner from './screens/Scanner';
-import GeneratorScreen from './screens/Generator';
+ 
 
  
  
@@ -39,8 +38,7 @@ function App() {
         <Stack.Screen name="Onbordingscreens" component={Onboardingscreen} options={{headerShown:false}} />
         <Stack.Screen name="Profile" component={Profile} options={{headerShown:false}} />
         <Stack.Screen name="StockDetailView" component={StockDetailView} options={{headerShown:false}} />
-        <Stack.Screen name="ScannerScreen" component={Scanner} options={{headerShown:false}} />
-        <Stack.Screen name="GeneratorScreen" component={GeneratorScreen} options={{headerShown:false}} />
+     
         
       </Stack.Navigator>
       </MoviesContext.Provider>
