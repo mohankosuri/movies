@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, Image, StyleSheet ,ScrollView,TouchableOpacity} from 'react-native';
+import axios from 'axios';
  
 
 
@@ -42,30 +43,7 @@ export const Top100MovieDetailsScreen = ({ route }) => {
 const SettingsScreen = ({navigation}) => {
   const [data, setData] = useState([]);
 
-  {/*useEffect(() => {
-    const fetchData = async () => {
-      const url = 'https://imdb_api4.p.rapidapi.com/get_movies_by_cast_name';
-      const options = {
-        method: 'GET',
-        headers: {
-          'X-RapidAPI-Key': '8d5a988d4fmsh76b78ab88329b45p14286bjsn418dbed7c5e1',
-          'X-RapidAPI-Host': 'imdb-top-100-movies.p.rapidapi.com'
-        }
-      };
-
-      try {
-        const response = await fetch(url, options);
-        const result = await response.json();
-        setData(result); // Update the state with fetched data
-        console.log(result)
-      } catch (error) {
-        console.error(error);
-      }
-    };
-
-    fetchData();
-  }, []);*/}
-
+ 
 
   useEffect(() => {
     const fetchData = async () => {
@@ -74,15 +52,14 @@ const SettingsScreen = ({navigation}) => {
         method: 'GET',
         headers: {
           'X-RapidAPI-Key': '8d5a988d4fmsh76b78ab88329b45p14286bjsn418dbed7c5e1',
-          'X-RapidAPI-Host': 'imdb-top-100-movies.p.rapidapi.com'
+          'x-rapidapi-host': 'imdb_api4.p.rapidapi.com'
         }
       };
 
       try {
-        const response = await fetch(url, options);
-        const result = await response.json();
-        setData(result); // Update the state with fetched data
-        console.log(result)
+        const response = await axios.get(url, { headers: options.headers });
+        setData(response.data); // Update the state with fetched data
+        console.log(response.data);
       } catch (error) {
         console.error(error);
       }
